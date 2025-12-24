@@ -7,6 +7,8 @@
 
 A decentralized tipping application built on the Stacks blockchain, enabling users to send and receive micro-payments in STX tokens through an intuitive web interface.
 
+![Connect](assets/connect.png)
+
 ## Table of Contents
 
 - [Features](#features)
