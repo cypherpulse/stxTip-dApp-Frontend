@@ -3,6 +3,7 @@ import { ExternalLink, MessageSquare } from 'lucide-react';
 import { BitcoinSymbol } from './BitcoinIcon';
 import { Tip, formatSTX, truncateAddress } from '@/lib/stacks';
 
+// Small tweak for frontend update
 interface TipCardProps {
   tip: Tip;
   index: number;
