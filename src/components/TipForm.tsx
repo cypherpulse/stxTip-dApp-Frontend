@@ -12,6 +12,7 @@ import { useWallet } from '@/hooks/useWallet';
 import { useTips } from '@/hooks/useTips';
 import { useToast } from '@/hooks/use-toast';
 
+// Small tweak for frontend update
 type TxStatus = 'idle' | 'pending' | 'success' | 'error';
 
 export function TipForm() {
