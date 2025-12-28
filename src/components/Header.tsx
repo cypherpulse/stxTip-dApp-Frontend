@@ -3,6 +3,7 @@ import { BitcoinSymbol } from './BitcoinIcon';
 import { WalletButton } from './WalletButton';
 import { Badge } from '@/components/ui/badge';
 
+// Small tweak for frontend update
 export function Header() {
   return (
     <motion.header
