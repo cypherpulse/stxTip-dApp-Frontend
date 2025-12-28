@@ -13,6 +13,7 @@ import { useWallet } from '@/hooks/useWallet';
 import { truncateAddress } from '@/lib/stacks';
 import { useToast } from '@/hooks/use-toast';
 
+// Small tweak for frontend update
 export function WalletButton() {
   const { isConnected, address, isConnecting, connectWallet, disconnectWallet } = useWallet();
   const [copied, setCopied] = useState(false);
